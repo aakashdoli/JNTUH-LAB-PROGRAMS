@@ -1,0 +1,6 @@
+A = set(input("Set A (space-separated): ").split())
+B = set(input("Set B (space-separated): ").split())
+print("Union      :", A|B)
+print("Intersection:", A&B)
+print("Difference :", A-B)
+print("SymDiff    :", A^B)
